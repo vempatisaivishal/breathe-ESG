@@ -1,0 +1,52 @@
+// SignupPage.scss
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1c1c1c;
+  
+    .signup-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+  
+      .logo-container {
+        color: #fff;
+        text-align: center;
+  
+        img {
+          width: 100px;
+          height: auto;
+        }
+  
+        h1 {
+          font-size: 24px;
+          margin-bottom: 16px;
+        }
+  
+        p {
+          font-size: 16px;
+          margin-bottom: 8px;
+        }
+      }
+  
+      .signup-form {
+        width: 400px;
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+        h2 {
+          text-align: center;
+          margin-bottom: 24px;
+        }
+  
+        .signup-button {
+          width: 100%;
+        }
+      }
+    }
+  }
